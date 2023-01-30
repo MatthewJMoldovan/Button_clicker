@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.window{
+    width: 1000px;
+    height: 800px;
+}
+
+/* Nav Bar */
+.nav{
+    width: 800px;
+    height: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#cccccc;
+}
+
+.nav>h1{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 2.7em;
+}
+
+.search{
+    width: 400px;
+    height: 30px;
+    border: solid 2px black;
+}
+
+.login{
+    width: 70px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+    background-color: #2b78e4;
+    color: white;
+    margin-right: 25px;
+}
+
+/* Body */
+
+.bodyMain{
+    width: 800px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.mainLeft{
+    width:500px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.mainRight{
+    width: 275px;
+    height: 400px;
+    margin-top:30px;
+    margin-left: 25px;
+}
+
+.leftTop{
+    border: solid 3px black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.word{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word >h1{
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.PoS{
+    font-size: 1.5em;
+    font-weight:500;
+    margin-bottom: 5px;
+}
+
+.plural{
+    font-size: 1.2em;
+    font-weight:475;
+    margin-bottom: 5px;
+}
+
+.likes{
+    width: 100px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+    background-color: #ffd966;
+    font-weight: 700;
+}
+
+.leftTop > .description{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftTop > .description > p {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+
+.leftBottom{
+    border: solid 3px black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.leftBottom > .description {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftBottom > .description > p {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.def{
+    width: 249px;
+    height: 160px;
+    border: solid 3px black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+
+.def > p{
+    font-size: 1.8em;
+    font-weight: 500
+}
+
+.addDef{
+    width:227px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+    background-color: #ffd966;
+    font-weight: 700;
+}
